@@ -1,0 +1,7 @@
+stack(
+    n("[0,7] 4 [2,7] 4")
+    .sub("2").sometimes(x=>x.sub("3")).scale("Gb:<major minor>/2"),
+    n("[0,7] 0 [2,7] 0 [2,5] 9").pan(sine).gain(0.6).scale("Gb:<major minor>/2")
+)
+  .s("folkharp")
+  .fast(2/5)
