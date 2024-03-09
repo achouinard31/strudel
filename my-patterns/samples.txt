@@ -1,0 +1,6 @@
+samples({
+  //toy1: 'samples/toys/toy1.wav',
+  //toy2: 'samples/toys/toy2.wav',
+  organ: 'samples/organ/organ.wav'
+}, 'github:achouinard31/strudel/patternuary/');
+s("toy1").slow(3).begin("<0 .25 .5 .75>").cut(1)
